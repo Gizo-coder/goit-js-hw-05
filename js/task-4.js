@@ -1,11 +1,12 @@
 // Görev 4. Toplam bakiye
 
 const getTotalBalanceByGender = (users, gender) => {
-  return users.reduce((total, user) => {
-    return user.gender === gender ? total + user.balance : total;
-  }, 0);
+  
+  return users.filter(user => user.gender === gender)
+    .reduce((total, user) => {
+      return total + user.balance
+    }, 0);
 };
-
 
 
 
