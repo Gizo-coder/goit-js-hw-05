@@ -15,7 +15,7 @@ const allUsers = [
   },
   {
     name: "Sharlene Bush",
-    friends: ["Briana Decker", "Sharron Pace"]
+    friends: [`Briana Decker`, "Sharron Pace"]
   },
   {
     name: "Ross Vazquez",
